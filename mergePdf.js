@@ -3,7 +3,7 @@ import { NavigationMixin } from 'lightning/navigation';
 import pdflib from "@salesforce/resourceUrl/pdflib";
 import { loadScript } from "lightning/platformResourceLoader";
 import getData from '@salesforce/apex/DocData.getData';
-import getRecordsId from '@salesforce/apex/Test1.getRecordsId';
+import getRecordsId from '@salesforce/apex/DocData.getRecordsId';
 
 
 export default class CreatePDF extends NavigationMixin(LightningElement) {
